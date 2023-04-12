@@ -1,5 +1,5 @@
 var data
-function get_file_(url) {
+function get_file(url) {
   let xhr = new XMLHttpRequest();
   xhr.open("get", url, true);
   xhr.responseType = "blob";
